@@ -1,0 +1,21 @@
+[package]
+name = "rust-template"
+version = "0.0.0"
+edition = "2021"
+
+authors = ["Martijn Gribnau <garm@ilumeo.com>"]
+# description = ""
+# license = "Apache-2.0 OR MIT"
+# repository = "https://github.com/foresterre/{{repository}}"
+
+#keywords = [{{keywords}}], # Choose up to 5
+#categories = [{{categories}}] # Choose up to 5, from: https://crates.io/category_slugs
+
+publish = false
+
+rust-version = "1.56"
+
+[package.metadata.release]
+tag-name = "v{{version}}"
+
+[dependencies]
